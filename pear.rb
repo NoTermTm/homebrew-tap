@@ -6,10 +6,10 @@ class Pear < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/NoTermTm/pear/releases/download/v0.0.2-test/pear-macos-aarch64.tar.gz"
-      sha256 "14aafa9e3801e6fb55a9f48b81d1097debe51f1a6461eeb82442fff7bd490404"
+      sha256 "86ef9acc728d2a8dcba53ffcc31d004d6c464c0e6c7cef866e509ef4f1b43c7c"
     else
       url "https://github.com/NoTermTm/pear/releases/download/v0.0.2-test/pear-macos-x86_64.tar.gz"
-      sha256 "23e1e2597cff66d9086c25ea9aa7e21edad42d95d18e1bad846b97bba44568de"
+      sha256 "220d1ed79026925e7e0802fed2186bda02126d18b46aad064f58b838fb99c138"
     end
   end
 
