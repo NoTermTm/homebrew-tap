@@ -1,15 +1,15 @@
 class Pear < Formula
   desc "Small Rust static file server for frontend build output"
   homepage "https://github.com/NoTermTm/pear"
-  version "0.0.5-beta"
+  version "0.0.6-beta"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/NoTermTm/pear/releases/download/v0.0.5-beta/pear-macos-aarch64.tar.gz"
-      sha256 "6ebe3ea810104bfb4018d81a3bdc9fed788dd096e99891c3cef476ff0e5f44ef"
+      url "https://github.com/NoTermTm/pear/releases/download/v0.0.6-beta/pear-macos-aarch64.tar.gz"
+      sha256 "1d58284ca87ca692ae790f6f21fea95b2bb824402dbace62a277d5322f52707f"
     else
-      url "https://github.com/NoTermTm/pear/releases/download/v0.0.5-beta/pear-macos-x86_64.tar.gz"
-      sha256 "23c942df34f6aaab452bf507df59fb75a802dac600a62de3e741c627640bcb7b"
+      url "https://github.com/NoTermTm/pear/releases/download/v0.0.6-beta/pear-macos-x86_64.tar.gz"
+      sha256 "4d59ad64411dffdcd68761efeecf8526afd49f3ee292276c9f95bde00f187db9"
     end
   end
 
